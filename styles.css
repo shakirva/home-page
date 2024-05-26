@@ -51,6 +51,7 @@
     color: white;
     height: 170vh;
     position: relative;
+    font-family: footlight mt;
 }
 
 .header-background {
@@ -434,12 +435,13 @@
     border-radius: 100px;
     width: 900px;
     height: 500px;
+    margin-left: -100px;
 }
 
 .gallery-img:nth-of-type(2) {
     position: absolute;
     top: 10px;
-    left: 950px;
+    left: 900px;
     width: 400px;
     height: 250px;
 }
@@ -447,7 +449,7 @@
 .gallery-img:nth-of-type(3) {
     position: absolute;
     top: 280px;
-    left: 955px;
+    left: 900px;
     width: 400px;
     height: 200px;
 }
@@ -456,12 +458,13 @@
     border-radius: 50px;
     margin: 10px;
     border: 4px solid #611A1F;  
+    margin-left: -40px;
 }
 
 .gallery-img-1:first-of-type {
     position: absolute;
     top: 10px;
-    left: 30px;
+    left: 10px;
     width: 400px;
     height: 250px;
 }
@@ -469,7 +472,7 @@
 .gallery-img-1:nth-of-type(2) {
    position: absolute;
     top: 280px;
-    left: 30px;
+    left: 10px;
     width: 400px;
     height: 200px;
 }
@@ -478,7 +481,7 @@
     border-radius: 100px;
     width: 900px;
     height: 500px;
-    margin-left:500px;
+    margin-left:450px;
 }
 
 
@@ -633,26 +636,44 @@ a {
 
 @media (max-width: 768px) {
     .navbar {
-        height: 0px;
+        height: 100px;
     }
 
     .navbar-nav .nav-item .nav-link {
         font-size: 18px;
         padding: 10px;
-        height: 50px;
-        width: 100px;
+        height: 10px;
+        width: 10px;
+       
+      
+
     }
 
     .header-background {
         width: 100%;
-        height: 520px;
+        height: 20px;
+        border-bottom-right-radius: 0px;
+        border-radius: 0%;
         
+    }
+    .navbar-logo {
+        width: 10%;
+        height: 10px;
+        margin-left:150px;
+       
     }
 
     .section-1 img {
         width: 100%;
-        height: 529px;
+        height: 549px;
         filter: blur(3px); 
+        border-bottom-left-radius: 0px;
+        
+    }
+
+    .section-1 {
+        height: 920px;
+        background-color: #611A1F;
     }
 
     .header-content {
@@ -690,65 +711,111 @@ a {
 
     }
 
+    .header-content .contact-us-btn {
+        font-size: 15px;
+        margin-top: 10px;
+        color: #611A1F;
+        border: 1px solid #611A1F;
+    }
+
+
+    
+
     .feedback-heading h2 {
         font-size: 30px;
         top: 550px;
-       margin-right: 20px;
+        margin-left: 15px;
+       font-weight: 700;
+       color: white;
+     
+       
     }
-
-    .feedback {
-        bottom: 5px;
-        right: 20px;
-        width: 350px;
-        height: 500px;
-        font-size: 2px;
+.feedback {
+        bottom: 200px;
+        right: 60px;
+        width: 250px;
+        height: 300px;
+        top: 610px;
+       
         border: 3px solid #611A1F;
     }
 
-    .section-2 img {
-        width: 60px;
-        height: 150px;
-        left: 0;
-        top: 0;
+    .section-2{
+        height: 650px;
     }
 
+    .feedback p {
+        font-size: 15px;
+        margin-top: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+        
+    }
+
+    .section-2 img {
+        position: absolute;
+        width: 90px;
+        height: 180px;
+        left: 0;
+        top: -520PX;
+    }
+
+   
     .section-heading {
+        
         font-size: 50px;
-        padding-top: 50px;
+        padding: 15px;
+        
     }
 
     .section-2 .container p {
-        font-size: 20px;
+        font-size: 16px;
+        width:325px;
     }
+
+   
 
     .blurred-image {
         width: 80%;
         height: auto;
         margin: auto 40px;
         margin-top: 20px;
+        margin-left: 30px;
+
     }
     .overlay-image {
-        width: 40%;
+        width: 30%;
         height: 45%;
+        margin-left:-10px;
         
     }
 
     .image-title {
-        font-size: 1.5rem;
+        font-size: 27px;
     }
 
     .image-subtitle {
         font-size: 1rem;
+        margin-left: -70px;
+        top: 79%;
     }
     
-    .image {
-        width: 200px;
-        height: 200px;
-        left: -50px;
-        top: -30px;
-       display: none;
+    .circle {
+        width: 30px;
+        height: 30px;
+        left: 150px;
+        top: 250px;
+        
        
     }
+
+    .image{
+        width: 130px;
+        height: 120px;
+        left: 0px;
+        top: 444%;
+        z-index: 1000;
+    }
+    
     .heading {
         font-size: 50px;
     }
@@ -766,15 +833,55 @@ a {
     }
 
     .section-5 span {
-        font-size: 30px;
+        font-size: 60px;
+        text-decoration: shadow;
     }
 
     .section-6 h2, .section-7 h2, .section-8 h2 {
         font-size: 40px;
     }
-    .gallery-img {
-        width: auto;
-        height: 250px;
+    .gallery-img:first-of-type {    
+        width: 300px;
+        height: 150px;
+        top: 150px;
+        margin-left:15px;
+        border-radius: 50px;
+    }
+    
+    .gallery-img:nth-of-type(2) {
+        position: static;
+        width: 300px;
+        height: 150px;
+        top: 20px;
+        left: 80px;
+    }
+
+    .gallery-img:nth-of-type(3) {
+        position: static;
+        width: 300px;
+        height: 150px;
+        top: 150px;
+        left: 80px;
+    }
+
+    .gallery-img-1  {
+        display: none;
+    }
+
+    .guest-heading  {
+        font-size: 30px;
+        margin-bottom: 50px;
+        
+    }
+    .guest-photo {
+        margin-bottom: 120px;
+        width: 150px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    
+    .guest-name {
+        font-size: 15px;
     }
 
     
@@ -785,21 +892,26 @@ a {
     }
 
     .blog-text {
-        margin-left: 0;
-        margin-top: 30px;
+        margin-left: 70px;
+        margin-right: 10px;
+        margin-bottom: 2px;
+        width: 250px;
+        height: 230px;
     }
 
     .blog-text h5 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .blog-text p {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     a {
-        font-size: 20px;
+        font-size: 15px;
     }
+    
+    
 
     .footer h5 {
         font-size: 20px;
@@ -811,6 +923,9 @@ a {
     .footer img {
         width: 50px;
         height: 50px;
+        display: none;
+    }
+    .company-logo {
         display: none;
     }
 }
