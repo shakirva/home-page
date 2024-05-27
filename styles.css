@@ -745,7 +745,7 @@ a {
     }
 
     .section-2{
-        height: 660px;
+        height: 600px;
     }
 
     .feedback p {
@@ -818,7 +818,7 @@ a {
         width: 130px;
         height: 120px;
         left: 0px;
-        top: 444%;
+        top: 340%;
         z-index: 1000;
     }
     
@@ -893,9 +893,11 @@ a {
 
     
     .blog-img {
-        height: 40%px;
-        width: 85%;
-        margin-top: 20px;
+        height: 90%;
+        width: 75%;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .blog-text {
@@ -919,7 +921,7 @@ a {
         font-size: 15px;
     }
     
-    
+
 
     .footer h5 {
         font-size: 20px;
