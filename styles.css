@@ -634,7 +634,7 @@ a {
 
 /* Media Queries for Mobile Responsiveness */
 
-@media (max-width: 768px) {
+@media (max-width: 782px) {
     .navbar {
         height: 100px;
     }
