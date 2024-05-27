@@ -754,6 +754,11 @@ a {
         
     }
 
+    .section-2 {
+        height: 700px;
+        background-color: #faf2f2;
+    }
+
     .section-2 img {
         position: absolute;
         width: 90px;
@@ -779,9 +784,6 @@ a {
     }
    
 
-    .section-3{
-        top: 0%;
-    }
     
 
     .blurred-image {
@@ -887,7 +889,7 @@ a {
     .guest-photo {
         margin-bottom: 10%;
         width: 35%;
-        height: 70%;
+        height: 10;
         border-radius: 50%;
         margin-left: 13%;
     }
