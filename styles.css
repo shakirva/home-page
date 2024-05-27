@@ -744,9 +744,7 @@ a {
         border: 3px solid #611A1F;
     }
 
-    .section-2{
-        height: 600px;
-    }
+    
 
     .feedback p {
         font-size: 15px;
@@ -776,9 +774,11 @@ a {
         font-size: 16px;
         width:80%;
         margin-left: 10%;
+        margin-top: 5%;
+        
     }
 
-   
+    
 
     .blurred-image {
         width: 80%;
@@ -820,6 +820,7 @@ a {
         left: 0px;
         top: 340%;
         z-index: 1000;
+        position: fixed;
     }
     
     .heading {
@@ -880,15 +881,16 @@ a {
         
     }
     .guest-photo {
-        margin-bottom: 120px;
-        width: 130px;
-        height: 100px;
+        margin-bottom: 10%;
+        width: 35%;
+        height: 70%;
         border-radius: 50%;
-        margin-left: 7%;
+        margin-left: 13%;
     }
     
     .guest-name {
-        font-size: 15px;
+        font-size: 50%;
+        
     }
 
     
