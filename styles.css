@@ -774,10 +774,14 @@ a {
         font-size: 16px;
         width:80%;
         margin-left: 10%;
-        margin-top: 5%;
+        margin-top: 10%;
         
     }
+   
 
+    .section-3{
+        top: 0%;
+    }
     
 
     .blurred-image {
@@ -808,8 +812,8 @@ a {
     .circle {
         width: 30px;
         height: 30px;
-        left: 150px;
-        top: 250px;
+        left:41%;
+        top: 88%;
         
        
     }
