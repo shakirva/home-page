@@ -803,6 +803,7 @@ a {
         font-size:50%;
         margin-top: 20px;
         font-family:Arial, Helvetica, sans-serif;
+        
        
         
         
@@ -837,6 +838,39 @@ a {
         
     }
    
+
+    @media (max-width: 376px) {
+
+        .section-2 img {
+            position: absolute;
+            width: 25%;
+            height: 20%;
+            left: 2px;
+            top: -17%;
+           
+        }
+        .section-1 {
+            height: 86vh;
+            background-color: #611A1F;
+            width: 60%;
+            border-bottom-right-radius: 75px;
+        }
+        .feedback-heading h2 {
+            font-size: 15px;
+            top: 60%;
+            margin-right: -92%;
+           font-weight: 700;
+           color: #611A1F;
+           position: absolute;
+         
+           
+        }
+        .section-2 {
+            height: 720px;
+            background-color: #ffffff;
+        }
+        /* styles for large phones and small tablets */
+    }
 
     
 
